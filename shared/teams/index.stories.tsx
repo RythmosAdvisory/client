@@ -9,6 +9,7 @@ import rolePicker from './role-picker/index.stories'
 import tabs from './team/tabs/index.stories'
 import rename from './rename-team/index.stories'
 import create from './new-team/index.stories'
+import teamRow from './main/team-row.stories'
 
 const load = () => {
   main()
@@ -22,6 +23,7 @@ const load = () => {
   tabs()
   rename()
   create()
+  teamRow()
 }
 
 export default load
